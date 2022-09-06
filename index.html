@@ -583,21 +583,21 @@
               <h2 class='heading-secondary'> Primeira refeição é de graça!</h2>
               <p class='cta-text'>Refeições saudáveis, saborosas e sem complicações estão esperando por você. Comece a comer bem hoje. Você pode cancelar ou pausar a qualquer momento. E a primeira refeição é por nossa conta!</p>
 
-              <form class='cta-form' action='#'>
+              <form class='cta-form' name='sign-up' netlify>
 
                 <div>
                   <label for='full-name'>Nome Completo</label>
-                  <input id='full-name' type='text' placeholder='Monteiro Sousa' required />
+                  <input id='full-name' type='text' placeholder='Monteiro Sousa' name='full-name' required />
                 </div>
 
                 <div>
                   <label for='email'>Endereço de email</label>
-                  <input id='email' type='email' placeholder='meu@email.com'required/>
+                  <input id='email' type='email' placeholder='meu@email.com' name='email' required/>
                 </div>
 
                 <div>
                   <label for='select-where'>Onde ouviu falar de nós?</label>
-                  <select id='select-where' required>
+                  <select id='select-where' name='select-where' required>
                     <option value=''>Por favor escolha uma opção</option>
                     <option value='Amigos'>Amigos e família</option>
                     <option value='youtube'>YouTube video</option>
